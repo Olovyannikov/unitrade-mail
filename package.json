@@ -1,0 +1,33 @@
+{
+  "name": "unitrade-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp gulp watch"
+  },
+  
+  "keywords": [
+    "mjml",
+    "gulp",
+    "imagemin",
+    "browsersync"
+  ],
+  "author": "Glonass Mobile",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.14.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-mjml": "^4.0.2",
+    "gulp-newer": "^1.4.0"
+  }
+}

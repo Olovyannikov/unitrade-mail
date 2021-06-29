@@ -1,0 +1,14 @@
+<mj-section padding='0'>
+    <mj-column width="100%">
+        <mj-text align="center" mj-class="preheader">
+            <a style="color: #9c9c9c" href="{$web_letterUrl}">Открыть в браузере</a>
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column  background-color='#1F2326' width="100%">  
+        <mj-text>
+            <a href="#"><img src="https://i.ibb.co/HH7c8gx/logo.png" alt="logo" border="0" /></a>
+        </mj-text>
+    </mj-column>
+</mj-section>  

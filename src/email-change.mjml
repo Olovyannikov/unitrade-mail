@@ -1,0 +1,26 @@
+<mjml>
+<mj-head>
+    <mj-title>Unitrade подтверждение e-mail</mj-title>
+</mj-head>
+    <mj-body>
+        <mj-include path="components/header.mjml"/>         
+        <mj-section>
+            <mj-column width="100%">
+                <mj-text font-size='24px' font-weight='bold'>
+                    Подтвердите Ваш email
+                </mj-text>
+                <mj-text font-size='16px' line-height='24px'>
+                    {$login}, здравствуйте! Ваш электронный адрес был изменен
+                </mj-text>
+                <mj-text font-size='16px' line-height='24px'>
+                     Для того, чтобы продолжить работать с сайтом, Вам необходимо подтвердить свой email:
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding='0'>
+            <mj-column>
+                <mj-button href='#' background-color='#28D2D6' border-radius='100px'>Подтвердить e-mail</mj-button>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

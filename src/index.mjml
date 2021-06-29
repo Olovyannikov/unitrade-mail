@@ -1,0 +1,36 @@
+<mjml>
+<mj-head>
+    <mj-title>Unitrade подтверждение e-mail</mj-title>
+</mj-head>
+    <mj-body>
+        <mj-include path="components/header.mjml"/>         
+        <mj-section>
+            <mj-column width="100%">
+                <mj-text font-size='24px' font-weight='bold'>
+                    Список писем
+                </mj-text>
+                <mj-text font-size='16px' line-height='24px'>
+                    <ul>
+                        <li>
+                            <a href="email-verify.html">Подтвердите ваш email</a>
+                        </li>
+                        <li>
+                            <a href="restore-password.html">Восстановление пароля</a>
+                        </li>
+                        <li>
+                            <a href="password-change.html">Ваш пароль изменен</a>
+                        </li>
+                        <li>
+                            <a href="email-change.html">Ваш email изменен</a>
+                        </li>
+                    </ul>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding='0'>
+            <mj-column>
+                <mj-button href='#' background-color='#28D2D6' border-radius='100px'>Подтвердить e-mail</mj-button>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
